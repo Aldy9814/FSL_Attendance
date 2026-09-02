@@ -1,5 +1,0 @@
-venv/
-serviceAccountKey.json
-haarcascade_frontalface_default.xml
-__pycache__/
-temp_*.jpg

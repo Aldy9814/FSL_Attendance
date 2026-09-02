@@ -38,11 +38,11 @@ def get_all_students():
     print(f"Retrieved {len(db_face)} students from Firestore.")
     return db_face
 
-# ==========================================
-# (TESTING)
-# ==========================================
+# ========
+# (TEST)
+# ========
 if __name__ == "__main__":
     print("Menguji pengiriman data ke Firestore...")
-    # Mengirim data palsu dengan array pendek
+    
     vektor_dummy = [0.1, 0.2, 0.3, 0.4] 
     save_data_student("999999", "Test Koneksi", vektor_dummy)
